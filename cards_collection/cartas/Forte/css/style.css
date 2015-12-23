@@ -42,7 +42,7 @@ html, body{
     background: transparent url('images/bg1.jpg') center center no-repeat;
     background-size:cover;
 }
-#profile { height: 413px; width: 536px; }
+#profile { height: 477px; width: 535px; }
 
 #menu { margin-top: 15px; }
 .menu-item { padding: 0 15px 0 0; }
