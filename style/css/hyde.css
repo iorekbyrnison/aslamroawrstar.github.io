@@ -98,6 +98,7 @@ html {
 /* Sidebar nav */
 .sidebar-nav {
   margin-bottom: 1rem;
+  font-family: "bebas_neueregular", Helvetica, Arial, Sans-Serif;
 }
 .sidebar-nav-item {
   display: block;
