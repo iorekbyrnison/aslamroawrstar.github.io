@@ -97,7 +97,7 @@ html {
 
 /* Sidebar nav */
 .sidebar-nav {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   font-family: "bebas_neueregular", Helvetica, Arial, Sans-Serif;
   font-size: 1.5rem;
 }
