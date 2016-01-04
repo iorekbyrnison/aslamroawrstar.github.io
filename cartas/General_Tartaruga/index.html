@@ -1,114 +1,50 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset='UTF-8' />
-	<title>Iorek Byrnison - Carta General Tartaruga</title>
-	<meta content="en" http-equiv="content-language"></meta>
-	<link rel="icon" href="/style/imagens/favicon.ico">
-	<link rel='stylesheet' href='/style/css/reset.css' type="text/css" charset="utf-8"/>
-	<link rel='stylesheet' href='/style/css/style.css' type="text/css" charset="utf-8"/>
-	<!--[if IE]>
+	<head>
+		<title>Iorek Byrnison - Carta General Tartaruga</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<!-- Enable responsiveness on mobile devices-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+		<link rel='stylesheet' href='/style/css/reset.css' type="text/css" charset="utf-8"/>
+		<link rel='stylesheet' href='/style/css/style.css' type="text/css" charset="utf-8"/>
+		<link rel="shortcut icon" href="/style/imagens/favicon.ico">
+		<!--[if IE]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
-	<script type="text/javascript">
-	function setBackgroundImage() {
-		var numBgs = 5;
-		var num = Math.floor((Math.random() * numBgs) + 1);
-		var style = "url('/style/imagens/bg" + num + ".jpg')";
-		elements = document.getElementsByClassName('fullscreen-img');
-	    for (var i = 0; i < elements.length; i++) {
-	        elements[i].style.backgroundImage=style;
-	    }
-	}
-	</script>
-</head>
-<body onload="setBackgroundImage()">
-	<div class="fullscreen-cont">
-		<div class = "fullscreen-img"></div>
-		<div id = "copy" class = "center">
-			<img id = "profile" src ="Carta_General_Tartaruga.jpg"/>
-			<h1>General Tartaruga</h1>
-			<h2>Carta BRO@Asgard</h2>
-			<p>Carta dropada em Party organizada por<br>
-			Iorek Byrnison.<br>
-				<br>
-				CARTAS DROPADAS POR IOREK BYRNISON</p>
-			<nav id="menu">
-				<ul>
-					<li>
-						<a title="Carta Iorek Byrnison" href="/cartas/Iorek_Byrnison" class="menu-item">
-			    			<img src="/cartas/Iorek_Byrnison/Carta_Iorek_Byrnison_1.png" onmouseover="this.src='/cartas/Iorek_Byrnison/Carta_Iorek_Byrnison_2.png'" onmouseout="this.src='/cartas/Iorek_Byrnison/Carta_Iorek_Byrnison_1.png'" />
-						</a>
-					</li>
-					<li>
-						<a title="Carta Forte" href="/cartas/Forte" class="menu-item">
-			    			<img src="/cartas/Forte/Carta_Forte_1.png" onmouseover="this.src='/cartas/Forte/Carta_Forte_2.png'" onmouseout="this.src='/cartas/Forte/Carta_Forte_1.png'" />
-						</a>
-					</li>
-					<li>
-						<a title="Carta Canguru" href="/cartas/Canguru" class="menu-item">
-			    			<img src="/cartas/Canguru/Carta_Canguru_1.png" onmouseover="this.src='/cartas/Canguru/Carta_Canguru_2.png'" onmouseout="this.src='/cartas/Canguru/Carta_Canguru_1.png'" />
-						</a>
-					</li>
-					<li>
-						<a title="Carta Padrão FS" href="/cartas/Padrao_FS" class="menu-item">
-			    			<img src="/cartas/Padrao_FS/Carta_Padrao_FS_1.png" onmouseover="this.src='/cartas/Padrao_FS/Carta_Padrao_FS_2.png'" onmouseout="this.src='/cartas/Padrao_FS/Carta_Padrao_FS_1.png'" />
-						</a>
-					</li>
-					<li>
-						<a title="Carta FS (Fake)" href="/cartas/FS_Fake" class="menu-item">
-			    			<img src="/cartas/FS_Fake/Carta_FS_Fake_1.png" onmouseover="this.src='/cartas/FS_Fake/Carta_FS_Fake_2.png'" onmouseout="this.src='/cartas/FS_Fake/Carta_FS_Fake_1.png'" />
-						</a>
-					</li>
-					<li>
-						<a title="Carta Cavaleiro da Tempestade" href="/cartas/Cavaleiro_da_Tempestade" class="menu-item">
-			    			<img src="/cartas/Cavaleiro_da_Tempestade/Carta_Cavaleiro_da_Tempestade_1.png" onmouseover="this.src='/cartas/Cavaleiro_da_Tempestade/Carta_Cavaleiro_da_Tempestade_2.png'" onmouseout="this.src='/cartas/Cavaleiro_da_Tempestade/Carta_Cavaleiro_da_Tempestade_1.png'" />
-						</a>
-					</li>
-					<li>
-						<a title="Carta Doppelganger" href="/cartas/Doppelganger" class="menu-item">
-			    			<img src="/cartas/Doppelganger/Carta_Doppelganger_1.png" onmouseover="this.src='/cartas/Doppelganger/Carta_Doppelganger_2.png'" onmouseout="this.src='/cartas/Doppelganger/Carta_Doppelganger_1.png'" />
-						</a>
-					</li>
-					<li>
-						<a title="Carta Eddga" href="/cartas/Eddga" class="menu-item">
-			    			<img src="/cartas/Eddga/Carta_Eddga_1.png" onmouseover="this.src='/cartas/Eddga/Carta_Eddga_2.png'" onmouseout="this.src='/cartas/Eddga/Carta_Eddga_1.png'" />
-						</a>
-					</li>
-					<li>
-						<a title="Carta General Tartaruga" href="/cartas/General_Tartaruga" class="menu-item">
-			    			<img src="/cartas/General_Tartaruga/Carta_General_Tartaruga_2.png" onmouseover="this.src='/cartas/General_Tartaruga/Carta_General_Tartaruga_2.png'" onmouseout="this.src='/cartas/General_Tartaruga/Carta_General_Tartaruga_2.png'" />
-						</a>
-					</li>
-					<li>
-						<a title="Carta Hatii" href="/cartas/Hatii" class="menu-item">
-			    			<img src="/cartas/Hatii/Carta_Hatii_1.png" onmouseover="this.src='/cartas/Hatii/Carta_Hatii_2.png'" onmouseout="this.src='/cartas/Hatii/Carta_Hatii_1.png'" />
-						</a>
-					</li>
-					<li>
-						<a title="Carta Kiel-D-01" href="/cartas/Kiel-D-01" class="menu-item">
-			    			<img src="/cartas/Kiel-D-01/Carta_Kiel-D-01_1.png" onmouseover="this.src='/cartas/Kiel-D-01/Carta_Kiel-D-01_2.png'" onmouseout="this.src='/cartas/Kiel-D-01/Carta_Kiel-D-01_1.png'" />
-						</a>
-					</li>
-					<li>
-						<a title="Carta Samurai Encarnado" href="/cartas/Samurai_Encarnado" class="menu-item">
-			    			<img src="/cartas/Samurai_Encarnado/Carta_Samurai_Encarnado_1.png" onmouseover="this.src='/cartas/Samurai_Encarnado/Carta_Samurai_Encarnado_2.png'" onmouseout="this.src='/cartas/Samurai_Encarnado/Carta_Samurai_Encarnado_1.png'" />
-						</a>
-					</li>
-					<li>
-						<a title="Carta Serpente Suprema" href="/cartas/Serpente_Suprema" class="menu-item">
-			    			<img src="/cartas/Serpente_Suprema/Carta_Serpente_Suprema_1.png" onmouseover="this.src='/cartas/Serpente_Suprema/Carta_Serpente_Suprema_2.png'" onmouseout="this.src='/cartas/Serpente_Suprema/Carta_Serpente_Suprema_1.png'" />
-						</a>
-					</li>
-					<li>
-						<a title="Carta Tao Gunka" href="/cartas/Tao_Gunka" class="menu-item">
-			    			<img src="/cartas/Tao_Gunka/Carta_Tao_Gunka_1.png" onmouseover="this.src='/cartas/Tao_Gunka/Carta_Tao_Gunka_2.png'" onmouseout="this.src='/cartas/Tao_Gunka/Carta_Tao_Gunka_1.png'" />
-						</a>
-					</li>
-				</ul>
-			</nav>
+		<![endif]-->
+		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+		<script type="text/javascript">
+			function setBackgroundImage() {
+				var numBgs = 5;
+				var num = Math.floor((Math.random() * numBgs) + 1);
+				var style = "url('/style/imagens/cartas" + num + ".jpg')";
+				elements = document.getElementsByClassName('fullscreen-img');
+				for (var i = 0; i < elements.length; i++) {
+					elements[i].style.backgroundImage=style;
+			}};
+		</script>
+		<script type="text/javascript">
+			jQuery(function($){
+				$('#listadecartas').load('/style/html/listadecartas.html');
+			});
+		</script>
+	</head>
+	<body onload="setBackgroundImage()">
+		<div class="fullscreen-cont">
+			<div class = "fullscreen-img"></div>
+			<div id = "copy" class = "center">
+				<img id = "profile" src ="Carta_General_Tartaruga.jpg"/>
+				<h1>General Tartaruga</h1>
+				<h2>Carta BRO@Asgard</h2>
+				<p>
+					Carta dropada em Party organizada por<br>
+					Iorek Byrnison.<br>
+					<br>
+					CARTAS DROPADAS POR IOREK BYRNISON</p>
+				<nav id="menu">
+					<ul id="listadecartas"/>
+				</nav>
+			</div>
 		</div>
-	</div>
-</body>
+	</body>
 </html>
